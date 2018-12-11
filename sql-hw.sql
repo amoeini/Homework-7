@@ -23,7 +23,8 @@ select first_name,last_name from sakila.actor
 	order by last_name,first_name;
 
 #2d
-select * from sakila.country;
+select * from sakila.country
+	where country in 'Afghanistan, Bangladesh, and China';
 
 #3a
 alter table sakila.actor
